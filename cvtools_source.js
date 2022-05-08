@@ -26,9 +26,9 @@ circ(centerX,centerY,radius,startingAngle,endingAngle,color,strokeColor,strokeWi
 color,strokeColor,strokeWidth are optional
 */
 //config:
-var cvwidth =500;
-var cvheight =500;
-var cvborder = 2;
+var cvwidth = 0;
+var cvheight = 0;
+var cvborder = 0;
 
 document.write('<canvas id="cv" width="'+cvwidth+'" height="'+cvheight+'" style="border:'+cvborder+'px red solid;"></canvas>')
 var ctx=document.getElementById("cv").getContext("2d");
