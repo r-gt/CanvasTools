@@ -1,32 +1,11 @@
 /*
-
        canvas drawtool(beta)
          by TheR
-instructions:
-
-
-box draws a scuare
-box(posX, posY, endposX, endposY, color, strokeColor, strokeWith)
-color,strokeColor and strokeWith are optional
-------------------
-cls fills the screen with a color
-cls(color,strokeColor,strokeWidth)
-all parameters are optional
-------------------
-text draws a text
-text(text,posX,posY,fontSize,font,textColor,strokeColor,strokeWidth)
-textColor, strokeColor and strokeWidth are optional
-------------------
-img draws an image
-img(imageLocationOrUrl,posX,posY,height,width,strokeColor,strokeWidth)
-strokeColor and strokeWidth are optional
-------------------
-circ draws a circle
-circ(centerX,centerY,radius,startingAngle,endingAngle,color,strokeColor,strokeWidth)
-color,strokeColor,strokeWidth are optional
 */
 //config:
-var cvwidth=0;var cvheight=0;var cvborder=0;
+var cvwidth = 0;
+var cvheight = 0;
+var cvborder = 0;
 //end config
 
 //dont touch please
